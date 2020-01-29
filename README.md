@@ -42,4 +42,4 @@ as many ants as necessary.)
 - ishaimou 1337
 
 
-[project pdf!](https://github.com/XD-OB/lemin/master/lemin.pdf)
+[project pdf!](https://github.com/XD-OB/lem_in/blob/master/lemin.pdf)

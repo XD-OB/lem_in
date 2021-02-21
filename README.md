@@ -53,7 +53,7 @@ Alot of maps in **ressources** folder
 
 - Display:
 
-![displayer](/ressources/screenshots/displayer.png)
+![displayer](/ressources/screenshots/displayer.jpg)
 
 - There is various maps in `./ressources/maps`
 - **WARNING!!**: this displayer use coordonate from the file, some maps files contain bad coordonate so you will not be able to see some maps!

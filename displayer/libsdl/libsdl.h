@@ -17,10 +17,10 @@
 # define IMG_INIT_FLAGS (IMG_INIT_PNG | IMG_INIT_JPG)
 
 # include "./Library/includes/libft.h"
-# include "./Library/includes/SDL.h"
-# include "./Library/includes/SDL_image.h"
-# include "./Library/includes/SDL_mixer.h"
-# include "./Library/includes/SDL_ttf.h"
+# include <SDL2/SDL.h>
+# include <SDL2/SDL_image.h>
+# include <SDL2/SDL_mixer.h>
+# include <SDL2/SDL_ttf.h>
 
 typedef struct		s_sdlenv
 {

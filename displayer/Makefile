@@ -26,13 +26,7 @@ LIBFT = -L ../libft -lft
 
 LIBSDL = -L ./libsdl -lsdl
 
-LIB_SDL2 = -L ~/.brew/Cellar/sdl2/2.0.9_1/lib/ -lSDL2
-
-LIB_SDL2_IMG = -L ~/.brew/Cellar/sdl2_image/2.0.4/lib/ -lSDL2_image
-
-LIB_SDL2_TTF = -L ~/.brew/Cellar/sdl2_ttf/2.0.14/lib/ -lSDL2_ttf
-
-LIB_SDL2_MIXER = -L ~/.brew/Cellar/sdl2_mixer/2.0.4/lib -lSDL2_mixer
+LIB_SDL2 = -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 
 H_LIBFT = ../libft/includes
 
@@ -65,7 +59,7 @@ $(NAME):
 	@echo ""
 	@echo "$(RESET)"
 	@gcc -o $(NAME) $(SRCS_DIR) -I $(H_LIBFT) -I $(H_DIR) -I $(H_LIBSDL) $(LIBFT) $(LIBSDL)\
-		$(LIB_SDL2) $(LIB_SDL2_IMG) $(LIB_SDL2_TTF) $(LIB_SDL2_MIXER) $(FLAGS)
+		$(LIB_SDL2) $(FLAGS)
 
 clean:
 	@make clean -C $(LIBFT_DIR)

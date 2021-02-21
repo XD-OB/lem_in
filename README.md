@@ -1,8 +1,10 @@
 # lem_in
 
-![Subject](/lemin.pdf)
+![Logo](/ressources/screenshots/logo.png)
 
 The goal of this project is to find the quickest way to get n ants across the farm.
+
+![Subject](/ressources/lemin.pdf)
 
 Quickest way means the solution with the least number of lines, respecting the output format requested below.
 
@@ -27,15 +29,39 @@ At the beginning of the game, all the ants are in the room ##start. The goal is 
 
 		x, z, r represents the ants’ numbers (going from 1 to number_of_ants) and y, w, o represents the rooms’ names.
 
-**`./lem-in < <farm_map.txt> | ./displayer/displayer`**
+## Compile
+- Compile the my libSDL `cd displayer && make && cd ..`
+- Run `make`
 
-## Bonus:
+## Usage
+- `./lem-in < <farm_map.txt> | ./displayer/displayer`
 
-- Wonderful Vizualizer using SDL2
+Alot of maps in **ressources** folder
+
+### without displayer
+
+![nodisplayer](/ressources/screenshots/nodisplayer.png)
+
+### using ./displayer
+
+- Usage:
+
+![usage](/ressources/screenshots/usage.png)
+
+- Display:
+
+![displayer](/ressources/screenshots/displayer.png)
+
+- There is various maps in `./ressources/maps`
+- **WARNING!!**: this displayer use coordonate from the file, some maps files contain bad coordonate so you will not be able to see some maps!
+
+## Bonus
+
+- Wonderful Vizualizer using my framework based on SDL2 !(XD-OB/libSDL2)[https://github.com/XD-OB/libsdl2]
 - Extra Commands
 
 
-## Owners:
+## Owners
 
 - obelouch 1337
 - ishaimou 1337

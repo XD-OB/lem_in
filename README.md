@@ -29,6 +29,9 @@ At the beginning of the game, all the ants are in the room ##start. The goal is 
 
 		x, z, r represents the ants’ numbers (going from 1 to number_of_ants) and y, w, o represents the rooms’ names.
 
+## Algorithm
+I created 2 algorithms to solve this problem **ISHOBE** and **OBEISH**
+
 ## Compile
 - Compile the my libSDL `cd displayer && make && cd ..`
 - Run `make`
